@@ -55,10 +55,11 @@
 
     <footer class="footer">
       <div class="content has-text-centered">
-        <p>
-          By <a href="https://www.webdevdrops.com/">Douglas Matoso</a> |
-          <a href="https://github.com/doug2k1/javascript-camera">Source code</a>
-        </p>
+        <p><span id="date-time"></span>.</p>
+        <script>
+          var dt = new Date();
+          document.getElementById("date-time").innerHTML = dt;
+        </script>
       </div>
     </footer>
 
